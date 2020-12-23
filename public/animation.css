@@ -2,7 +2,7 @@
 
 .view-enter-active,
 .view-leave-active {
-  transition: opacity 0.3s;
+  transition: opacity 0.2s;
 }
 
 .view-enter,

@@ -56,7 +56,6 @@ a:hover {
 
 <script>
 export default {
-  name: "TheHeader",
-  props: {}
+  name: "TheHeader"
 };
 </script>

@@ -52,7 +52,6 @@ span {
 
 <script>
 export default {
-  name: "Contact",
-  components: {}
+  name: "Contact"
 };
 </script>

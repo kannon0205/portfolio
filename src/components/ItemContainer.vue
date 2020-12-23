@@ -2,16 +2,23 @@
   <div class="container">
     <div class="box">
       <h3>
-        {{ title }}
-        <!-- title -->
+        {{ work.title }}
       </h3>
-      <p style="width: 300px; height: 188px">
-        <img v-bind:src="img" alt="制作物イメージ" />
+      <p class="img-container">
+        <img
+          v-bind:src="work.img"
+          alt="制作物イメージ"
+          width="300"
+          height="188"
+          v-on:click="
+            openModal();
+            changeModalContents(work);
+          "
+        />
       </p>
       <p>
         <span>使用言語</span><br />
-        {{ language }}
-        <!-- HTML/CSS, PHP -->
+        {{ work.language }}
       </p>
     </div>
   </div>
@@ -20,6 +27,7 @@
 <style scoped>
 img {
   border: 1px solid #2c3e50;
+  cursor: pointer;
 }
 
 .box {
@@ -30,6 +38,14 @@ img {
 <script>
 export default {
   name: "ItemContainer",
-  props: ["title", "img", "language"]
+  props: ["work"],
+  methods: {
+    openModal() {
+      this.$store.dispatch("openModalAction");
+    },
+    changeModalContents(work) {
+      this.$store.dispatch("changeModalContentsAction", work);
+    }
+  }
 };
 </script>

@@ -5,7 +5,7 @@
         <span class="title1">あさじま</span><span class="title2">の</span><br />
         ポートフォリオ
       </h1>
-      <p style="height: 215px">
+      <p class="top-image-container">
         <img
           alt="Vue logo"
           src="../assets/home-image.png"
@@ -39,6 +39,11 @@ h1 {
 
 .title2 {
   font-size: 3rem;
+}
+
+.top-image-container {
+  width: 200px;
+  height: 215px;
 }
 </style>
 
