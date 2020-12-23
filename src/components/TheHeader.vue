@@ -1,7 +1,7 @@
 <template>
   <header>
     <nav>
-      <ul>
+      <ul class="big">
         <li><router-link to="/">Home</router-link></li>
         <li class="indent">|</li>
         <li><router-link to="/profile">Profile</router-link></li>
@@ -52,10 +52,29 @@ a:hover {
   margin: 0 1rem;
   line-height: 3rem;
 }
+
+@media screen and (max-width: 480px) {
+  nav {
+    justify-content: center;
+  }
+
+  /* a {
+    padding: 0.5rem;
+  } */
+
+  .indent {
+    display: none;
+  }
+}
 </style>
 
 <script>
 export default {
-  name: "TheHeader"
+  name: "TheHeader",
+  data() {
+    return {
+      menu: false
+    };
+  }
 };
 </script>

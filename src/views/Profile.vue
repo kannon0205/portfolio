@@ -12,10 +12,7 @@
               href="https://www.facebook.com/kamon.asajima.5"
               target="_blank"
               rel="noopener"
-              ><v-fa
-                :icon="['fab', 'facebook']"
-                class="fa"
-                style="color:#3B5998;"
+              ><v-fa :icon="['fab', 'facebook']" class="fa facebook"
             /></a>
             &nbsp;
             <a
@@ -59,6 +56,10 @@
 
 .container {
   text-align: left;
+}
+
+.facebook {
+  color: #3b5998;
 }
 </style>
 

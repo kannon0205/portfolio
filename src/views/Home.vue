@@ -45,6 +45,20 @@ h1 {
   width: 200px;
   height: 215px;
 }
+
+@media screen and (max-width: 480px) {
+  h1 {
+    font-size: 3rem;
+  }
+
+  .title1 {
+    font-size: 5rem;
+  }
+
+  .title2 {
+    font-size: 2rem;
+  }
+}
 </style>
 
 <script>

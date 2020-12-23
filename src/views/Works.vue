@@ -17,7 +17,17 @@
   </div>
 </template>
 
-<style scoped></style>
+<style scoped>
+@media screen and (max-width: 480px) {
+  .container {
+    width: 100vw;
+    padding: 0;
+    margin: 3rem 0;
+    display: flex;
+    justify-content: center;
+  }
+}
+</style>
 
 <script>
 import ItemContainer from "@/components/ItemContainer.vue";

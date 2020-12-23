@@ -48,6 +48,16 @@ span {
   background-color: #ef866b;
   color: #fff;
 }
+
+@media screen and (max-width: 480px) {
+  .container {
+    width: 100vw;
+    padding: 0;
+    margin: 3rem 0;
+    display: flex;
+    justify-content: center;
+  }
+}
 </style>
 
 <script>

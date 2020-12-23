@@ -29,7 +29,7 @@
               >
             </p>
           </div>
-          <p>
+          <p class="ta-justify">
             {{ modalContents.comment }}
           </p>
           <p><span class="close-modal" v-on:click="closeModal">閉じる</span></p>
@@ -55,7 +55,7 @@
 .modal-window {
   z-index: 100;
   max-width: 60%;
-  min-width: 300px;
+  min-width: 400px;
   background-color: #fff;
   border-radius: 4px;
   padding: 2rem;
@@ -86,6 +86,17 @@ a {
 .modal-enter,
 .modal-leave-to {
   opacity: 0;
+}
+
+@media screen and (max-width: 480px) {
+  .modal-window {
+    min-width: 100vw;
+    border-radius: 0;
+    overflow-y: scroll;
+  }
+  .ta-justify {
+    text-align: left;
+  }
 }
 </style>
 
