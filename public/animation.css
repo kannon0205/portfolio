@@ -1,0 +1,11 @@
+@charset "utf-8";
+
+.view-enter-active,
+.view-leave-active {
+  transition: opacity 0.3s;
+}
+
+.view-enter,
+.view-leave-to {
+  opacity: 0;
+}

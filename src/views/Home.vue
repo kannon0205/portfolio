@@ -1,21 +1,32 @@
 <template>
-  <div class="container">
-    <h1>
-      <span class="title1">あさじま</span><span class="title2">の</span><br />
-      ポートフォリオ
-    </h1>
-    <p>
-      <img
-        alt="Vue logo"
-        src="../assets/home-image.png"
-        width="200"
-        height="215"
-      />
-    </p>
-  </div>
+  <section>
+    <div class="home-container">
+      <h1>
+        <span class="title1">あさじま</span><span class="title2">の</span><br />
+        ポートフォリオ
+      </h1>
+      <p style="height: 215px">
+        <img
+          alt="Vue logo"
+          src="../assets/home-image.png"
+          width="200"
+          height="215"
+        />
+      </p>
+    </div>
+  </section>
 </template>
 
 <style scoped>
+.home-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: calc(100vh - 9rem);
+  padding-top: 3rem;
+}
+
 h1 {
   font-family: "Nico Moji";
   font-size: 4rem;

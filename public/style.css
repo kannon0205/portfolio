@@ -1,0 +1,64 @@
+@charset "utf-8";
+
+body {
+  text-align: center;
+  color: #2c3e50;
+  background-color: #bcb5b5;
+  overflow-y: scroll;
+}
+
+#app {
+  min-height: 100vh;
+  max-width: 1080px;
+  margin:0 auto;
+  padding-top: 3rem;
+}
+
+.wrapper {
+  padding: 6rem 0 3rem;
+}
+
+.container {
+  padding: 3rem;
+  width: 400px;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+p {
+  margin-top: 1rem;
+  line-height: 1.5;
+}
+
+p span {
+  font-weight: bold;
+}
+
+h2 {
+  margin-left: 3rem;
+  text-align: left;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 4rem;
+}
+
+h3 {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 2rem;
+}
+
+input[type="text"],
+textarea {
+  border-radius: 4px;
+  background-color: #fff;
+}
+
+input[type="submit"] {
+  padding: 1rem 2rem;
+  border-radius: 4px;
+  color:#fff;
+  background-color:#2c3e50;
+}

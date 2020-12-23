@@ -2,9 +2,10 @@
   <header>
     <nav>
       <ul>
-        <li><router-link to="/" class="home">Home</router-link></li>
+        <li><router-link to="/">Home</router-link></li>
+        <li class="indent">|</li>
         <li><router-link to="/profile">Profile</router-link></li>
-        <li><router-link to="/work">Work</router-link></li>
+        <li><router-link to="/works">Works</router-link></li>
         <li><router-link to="/contact">Contact</router-link></li>
       </ul>
     </nav>
@@ -13,8 +14,8 @@
 
 <style scoped>
 header {
-  background-color: #bcb5b5;
   color: #fff;
+  font-family: "Josefin Sans", sans-serif;
 }
 
 nav {
@@ -27,6 +28,7 @@ nav {
 
 ul {
   display: flex;
+  position: fixed;
 }
 
 li {
@@ -46,8 +48,9 @@ a:hover {
   transition: background-color 0.2s;
 }
 
-.home {
-  margin-right: 2rem;
+.indent {
+  margin: 0 1rem;
+  line-height: 3rem;
 }
 </style>
 
