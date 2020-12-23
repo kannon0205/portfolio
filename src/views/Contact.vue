@@ -30,7 +30,7 @@
                 required
               ></textarea>
             </p>
-            <p><input type="submit" /></p>
+            <p class="submit"><input type="submit" /></p>
           </form>
         </div>
       </div>
@@ -56,6 +56,10 @@ span {
     margin: 3rem 0;
     display: flex;
     justify-content: center;
+  }
+
+  .submit {
+    text-align: center;
   }
 }
 </style>
