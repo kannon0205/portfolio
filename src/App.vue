@@ -25,10 +25,19 @@
   padding-top: 3rem;
 }
 
+.container {
+  min-height: calc(100vh - 6rem);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
 .view-enter-active,
 .view-leave-active {
   transition: opacity 0.4s;
 }
+
 .view-enter,
 .view-leave-to {
   opacity: 0;

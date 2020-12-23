@@ -1,5 +1,5 @@
 <template>
-  <div class="contact">contact</div>
+  <div class="container">contact</div>
 </template>
 
 <script>

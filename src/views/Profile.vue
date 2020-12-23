@@ -1,5 +1,5 @@
 <template>
-  <div class="profile">profile</div>
+  <div class="container">profile</div>
 </template>
 
 <script>

@@ -1,22 +1,21 @@
 <template>
-  <div class="home">
+  <div class="container">
     <h1>
       <span class="title1">あさじま</span><span class="title2">の</span><br />
       ポートフォリオ
     </h1>
-    <p><img alt="Vue logo" src="../assets/home-image.png" width="200" /></p>
+    <p>
+      <img
+        alt="Vue logo"
+        src="../assets/home-image.png"
+        width="200"
+        height="215"
+      />
+    </p>
   </div>
 </template>
 
 <style scoped>
-.home {
-  min-height: calc(100vh - 6rem);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
 h1 {
   font-family: "Nico Moji";
   font-size: 4rem;
@@ -34,7 +33,6 @@ h1 {
 
 <script>
 export default {
-  name: "Home",
-  components: {}
+  name: "Home"
 };
 </script>
