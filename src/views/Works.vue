@@ -6,9 +6,9 @@
         <h2>Works</h2>
         <div class="flex-container">
           <item-container
-            v-for="work in works"
-            v-bind:key="work.id"
-            v-bind:work="work"
+            v-for="(work, index) in works"
+            :key="index"
+            :work="work"
           ><!-- eslint-disable-line -->
           </item-container>
         </div>
