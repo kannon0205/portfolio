@@ -5,6 +5,14 @@ const works = [
     language: "HTML/SCSS, JavaScript(Next.js)",
     page: "https://relaxed-bohr-0eb32d.netlify.app/",
     github: "https://github.com/kannon0205/PPboard",
+    comment: "Next.jsの練習に作成した卓球のスコアボードです。"
+  },
+  {
+    title: "vue_adventure",
+    img: require("../assets/vue_adventure.png"),
+    language: "HTML/CSS, JavaScript(Vue.js)",
+    page: "https://peaceful-torvalds-b04ea3.netlify.app/#/",
+    github: "https://github.com/kannon0205/vue_adventure",
     comment:
       "Vue.jsdeで作成したノベルゲームの骨組みです。アニメーションの練習に作成しました。"
   },
