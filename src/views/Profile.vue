@@ -31,6 +31,9 @@
           <p class="ta-justify">
             2020年5月からProgateを利用しプログラミングを学習開始。7月から職業訓練校アジャストアカデミーに入学し、12月に卒業。
           </p>
+          <p class="ta-justify">
+            訓練校の影響でFacebookを初めました。無職日記とその日見つけた記事紹介を書いています。
+          </p>
         </div>
         <div class="container">
           <h3>Skill</h3>
