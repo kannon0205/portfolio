@@ -39,12 +39,12 @@
           <h3>Skill</h3>
           <p>
             <span>作品を制作した</span><br />
-            HTML/CSS, JavaScript(node.js), Vue.js, PHP, Ruby(Ruby on Rails),
-            Github, heroku, PostgreSQL
+            HTML/CSS(SCSS), JavaScript(node.js), Vue.js, React.js(Next.js) PHP,
+            Ruby(Ruby on Rails), Github, heroku, PostgreSQL
           </p>
           <p>
             <span>使ったことがある</span><br />
-            SCSS, MySQL, PhotoShop, Illustrator, AdobeXD, PremierePro
+            MySQL, PhotoShop, Illustrator, AdobeXD, PremierePro
           </p>
         </div>
       </div>
