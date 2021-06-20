@@ -6,7 +6,7 @@ const works = [
     page: "https://flamboyant-goodall-67d8ae.netlify.app/",
     github: "#",
     comment:
-      "制作時間3時間。デザインカンプからのコーディングの練習に作成しました。"
+      "制作時間3時間。デザインカンプからのコーディングの練習に作成しました。デザインカンプはCodestep様からお借りしました。"
   },
   {
     title: "PPboard",
