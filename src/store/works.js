@@ -1,5 +1,14 @@
 const works = [
   {
+    title: "Travel Blog",
+    img: require("../assets/code_step_blog.png"),
+    language: "HTML/CSS",
+    page: "https://flamboyant-goodall-67d8ae.netlify.app/",
+    github: "#",
+    comment:
+      "制作時間3時間。デザインカンプからのコーディングの練習に作成しました。"
+  },
+  {
     title: "PPboard",
     img: require("../assets/pp_board.png"),
     language: "HTML/SCSS, JavaScript(Next.js)",
